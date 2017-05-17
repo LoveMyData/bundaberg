@@ -1,10 +1,17 @@
-Bundaberg Regional Council scraper
-----------------------------------
+# Bundaberg Regional Council scraper
 
-This site was a bit tricky to get the data out
+* Distilnetworks (Anti bot device) - Yes
+* Server - Unknown
+* Cookie tracking - Yes
+* Pagnation - Yes
+* Javascript - Yes
+* Clearly defined data within a row - Yes
+* Scrape detail page - No
 
-We have Terms need to agreed and then keep track the cookie and deal with JavaScript, also pagnation. Wow.....Most importantly, I learn something new about forking a repo and test it as my own repo, then send for Pull Request for planningalerts.
+Setup MORPH_PERIOD for data recovery, available options are
 
-By default: it will look for 'thisweek' of DAs, for data recovery you can set the MORPH_PERIOD=thismonth or MORPH_PERIOD=lastmonth
+* thisweek (default)
+* thismonth
+* lastmonth
 
-It is now done and enjoy!!
+Enjoy
